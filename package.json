@@ -11,7 +11,7 @@
 		"build": "tsc && tsc-alias",
 		"dev": "tsc --watch",
 		"test": "prettier --check . && xo && ava",
-		"start": "export YTDL_NO_UPDATE true && ./dist/cli.js"
+		"start": "export YTDL_NO_UPDATE=1 && ./dist/cli.js"
 	},
 	"files": [
 		"dist"
